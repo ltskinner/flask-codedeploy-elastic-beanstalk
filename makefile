@@ -9,8 +9,4 @@ test:
 lint:
 	pylint --disable=R,C application.py
 
-deploy:
-	echo "Deploying app"
-	eb deploy hello-env
-
 all: install lint test 
