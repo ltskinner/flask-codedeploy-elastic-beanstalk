@@ -7,3 +7,7 @@ All credit [https://github.com/noahgift/Flask-Elastic-Beanstalk](https://github.
 So like, CI is basically EVERYTHING except actually hitting deploy
 
 within deploy theres the deployment strategies n stuff
+
+## Name for copy+paste
+
+flask-codepipeline-elastic-beanstalk
