@@ -9,9 +9,13 @@ phases:
       - python3.7 -m venv ~/.venv
       - source ~/.venv/bin/activate
       - make install
-      - make lint
 
   build:
     commands:
-      - make deploy
-    
+      - make lint
+
+artifacts:
+  files:
+    - application.py
+    - requirements.txt
+  name: flask-codepipeline-elastic-beanstalk-$(date +%Y-%m-%d)
