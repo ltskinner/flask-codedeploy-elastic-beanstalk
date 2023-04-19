@@ -1,5 +1,5 @@
 # pretty sure this is for executing within the codebuild env
-awsebcli
+#awsebcli
 
 pytest
 pylint
